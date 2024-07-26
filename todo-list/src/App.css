@@ -1,0 +1,90 @@
+.App {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+  text-align: center;
+}
+.todo-wrapper {
+  margin: auto;
+  text-align: center;
+  background-color: coral;
+  border: 1px solid black;
+  text-align: center;
+}
+.todoform {
+  padding: 10px;
+  margin: 2px;
+}
+input {
+  padding: 5px;
+  margin: 2px;
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+input:hover {
+  border: 1px solid cornflowerblue;
+}
+input:focus {
+  outline: none;
+  border: 2px solid cornflowerblue;
+}
+button {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  background-color: cornflowerblue;
+  margin: 5px;
+  width: 20%;
+  height: 40px;
+}
+button:hover {
+  border: 1px solid white;
+}
+.todo-wrapper h1 {
+  color: white;
+}
+
+.todo-btn button {
+  background-color: coral;
+  margin-inline: 15px;
+  text-align: center;
+  padding-inline: 5px;
+  padding-block: 3px;
+  width: 25%;
+}
+.todo-item {
+  width: 100%;
+  background-color: cornflowerblue;
+  display: flex;
+  padding-top: 10px;
+  border-block-end: 1px solid white;
+
+}
+.task {
+  width: 50%;
+}
+p {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+p:hover {
+  cursor: pointer;
+}
+.todo-btn {
+  width: 50%;
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: coral;
+}
